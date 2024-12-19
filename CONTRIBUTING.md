@@ -5,7 +5,7 @@ Thanks for your interest in contribute to dynmgrm!
 
 ### Getting Started
 
-1. [Fork `miyamo2/dynmgrm`](https://github.com/miyamo2/dynmgrm/fork)
+1. [Fork `himgang/dynmgrm`](https://github.com/himgang/dynmgrm/fork)
 
 2. Clone your fork repository locally
 

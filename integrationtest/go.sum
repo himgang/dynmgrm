@@ -41,8 +41,8 @@ github.com/jmespath/go-jmespath/internal/testify v1.5.1 h1:shLQSRRSCCPj3f2gpwzGw
 github.com/jmespath/go-jmespath/internal/testify v1.5.1/go.mod h1:L3OGu8Wl2/fWfCI6z80xFu9LTZmf1ZRjMHUOPmWr69U=
 github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
-github.com/miyamo2/godynamo v1.4.0 h1:FXXsW+41lMYOWi3JhnjvhySCDK6Db7g6DKnCjriGZVM=
-github.com/miyamo2/godynamo v1.4.0/go.mod h1:bq+yV+cLMgvHQEnqYpDhl+Gvw2Y5XZazj/ITiuajGnY=
+github.com/himgang/godynamo v1.4.0 h1:FXXsW+41lMYOWi3JhnjvhySCDK6Db7g6DKnCjriGZVM=
+github.com/himgang/godynamo v1.4.0/go.mod h1:bq+yV+cLMgvHQEnqYpDhl+Gvw2Y5XZazj/ITiuajGnY=
 github.com/miyamo2/sqldav v0.2.1 h1:zdE38EVs4gVUuj3WExRIbUttj54VLHKnj03dxlUdIM4=
 github.com/miyamo2/sqldav v0.2.1/go.mod h1:kiJbN9nSiYRk6S2ZxcP8FkiUETU1acKW+6LX3N/j5oI=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

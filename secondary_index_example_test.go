@@ -1,7 +1,7 @@
 package dynmgrm_test
 
 import (
-	"github.com/miyamo2/dynmgrm"
+	"github.com/himgang/dynmgrm"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

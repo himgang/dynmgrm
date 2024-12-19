@@ -1,15 +1,15 @@
-module github.com/miyamo2/dynmgrm/integrationtest
+module github.com/himgang/dynmgrm/integrationtest
 
 go 1.22
 
-replace github.com/miyamo2/dynmgrm => ../
+replace github.com/himgang/dynmgrm => ../
 
 require (
 	github.com/aws/aws-sdk-go v1.55.5
 	github.com/google/go-cmp v0.6.0
 	github.com/joho/godotenv v1.5.1
-	github.com/miyamo2/dynmgrm v0.0.0-00010101000000-000000000000
-	github.com/miyamo2/godynamo v1.4.0
+	github.com/himgang/dynmgrm v0.0.0-00010101000000-000000000000
+	github.com/himgang/godynamo v1.4.0
 	github.com/miyamo2/sqldav v0.2.1
 	gorm.io/gorm v1.25.12
 )

@@ -4,9 +4,10 @@ import (
 	"database/sql/driver"
 	"errors"
 	"fmt"
+	"regexp"
+
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm"
-	"regexp"
 )
 
 var (

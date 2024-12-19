@@ -1,4 +1,4 @@
-module github.com/miyamo2/dynmgrm/tools
+module github.com/himgang/dynmgrm/tools
 
 go 1.22.1
 

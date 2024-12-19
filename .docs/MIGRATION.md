@@ -31,7 +31,7 @@ type User struct {
 package main
 
 import (
-    "github.com/miyamo2/dynmgrm"
+    "github.com/himgang/dynmgrm"
     "gorm.io/gorm"
 )
 
@@ -58,7 +58,7 @@ func main() {
 package main
 
 import (
-    "github.com/miyamo2/dynmgrm"
+    "github.com/himgang/dynmgrm"
     "gorm.io/gorm"
 )
 

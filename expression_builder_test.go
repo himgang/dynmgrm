@@ -2,15 +2,16 @@ package dynmgrm
 
 import (
 	"fmt"
+	"testing"
+
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 	"github.com/google/go-cmp/cmp"
-	"github.com/miyamo2/dynmgrm/internal/mocks"
+	"github.com/himgang/dynmgrm/internal/mocks"
 	"github.com/miyamo2/sqldav"
 	"go.uber.org/mock/gomock"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 	"gorm.io/gorm/schema"
-	"testing"
 )
 
 var _ gorm.Dialector = (*mockDialector)(nil)

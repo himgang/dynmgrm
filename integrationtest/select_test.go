@@ -1,11 +1,12 @@
 package integrationtest
 
 import (
+	"testing"
+
 	"github.com/google/go-cmp/cmp"
-	"github.com/miyamo2/dynmgrm"
+	"github.com/himgang/dynmgrm"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm/clause"
-	"testing"
 )
 
 func Test_Select_All(t *testing.T) {

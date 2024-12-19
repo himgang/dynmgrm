@@ -3,12 +3,13 @@ package integrationtest
 import (
 	"errors"
 	"fmt"
+	"testing"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/google/go-cmp/cmp"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm"
-	"testing"
 )
 
 func Test_Insert_With_Create(t *testing.T) {

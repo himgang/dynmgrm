@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/miyamo2/dynmgrm"
+	"github.com/himgang/dynmgrm"
 	"testing"
 )
 

@@ -1,10 +1,11 @@
 package dynmgrm_test
 
 import (
-	"github.com/miyamo2/dynmgrm"
+	"log"
+
+	"github.com/himgang/dynmgrm"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm"
-	"log"
 )
 
 func ExampleListAppend() {

@@ -1,5 +1,5 @@
-//go:generate mockgen -destination=internal/mocks/mock_db_for_migrator.go -package=mocks github.com/miyamo2/dynmgrm DBForMigrator
-//go:generate mockgen -destination=internal/mocks/mock_base_migrator.go -package=mocks github.com/miyamo2/dynmgrm BaseMigrator
+//go:generate mockgen -destination=internal/mocks/mock_db_for_migrator.go -package=mocks github.com/himgang/dynmgrm DBForMigrator
+//go:generate mockgen -destination=internal/mocks/mock_base_migrator.go -package=mocks github.com/himgang/dynmgrm BaseMigrator
 package dynmgrm
 
 import (

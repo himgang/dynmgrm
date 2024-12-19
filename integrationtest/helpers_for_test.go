@@ -2,20 +2,21 @@ package integrationtest
 
 import (
 	"fmt"
+	"os"
+	"sort"
+	"testing"
+	"time"
+
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbiface"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
+	"github.com/himgang/dynmgrm"
 	"github.com/joho/godotenv"
-	"github.com/miyamo2/dynmgrm"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm"
-	"os"
-	"sort"
-	"testing"
-	"time"
 )
 
 type TestTable struct {

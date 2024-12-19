@@ -2,12 +2,12 @@
 
 <img src=".assets/logo/svg/dynmgrm_logo_with_caption.svg" width="400" alt="logo">
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/miyamo2/dynmgrm.svg)](https://pkg.go.dev/github.com/miyamo2/dynmgrm)
-[![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/miyamo2/dynmgrm?logo=go)](https://img.shields.io/github/go-mod/go-version/miyamo2/dynmgrm?logo=go)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/miyamo2/dynmgrm)](https://img.shields.io/github/v/release/miyamo2/dynmgrm)
-[![codecov](https://codecov.io/gh/miyamo2/dynmgrm/graph/badge.svg?token=QLIVB3ESVD)](https://codecov.io/gh/miyamo2/dynmgrm)
-[![Go Report Card](https://goreportcard.com/badge/github.com/miyamo2/dynmgrm)](https://goreportcard.com/report/github.com/miyamo2/dynmgrm)
-[![GitHub License](https://img.shields.io/github/license/miyamo2/dynmgrm?&color=blue)](https://img.shields.io/github/license/miyamo2/dynmgrm?&color=blue)
+[![Go Reference](https://pkg.go.dev/badge/github.com/himgang/dynmgrm.svg)](https://pkg.go.dev/github.com/himgang/dynmgrm)
+[![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/himgang/dynmgrm?logo=go)](https://img.shields.io/github/go-mod/go-version/himgang/dynmgrm?logo=go)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/himgang/dynmgrm)](https://img.shields.io/github/v/release/himgang/dynmgrm)
+[![codecov](https://codecov.io/gh/himgang/dynmgrm/graph/badge.svg?token=QLIVB3ESVD)](https://codecov.io/gh/himgang/dynmgrm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/himgang/dynmgrm)](https://goreportcard.com/report/github.com/himgang/dynmgrm)
+[![GitHub License](https://img.shields.io/github/license/himgang/dynmgrm?&color=blue)](https://img.shields.io/github/license/himgang/dynmgrm?&color=blue)
 
 dynmgrm is the driver to issue PartiQL Statement to DynamoDB with GORM⚡
 
@@ -31,8 +31,8 @@ dynmgrm is the driver to issue PartiQL Statement to DynamoDB with GORM⚡
     - [x] With `set_delete` function
   - [ ] With `REMOVE` clause
 - [x] Delete
-- [x] Create Table ※ proprietary PartiQL syntax by [`miyamo2/godynamo`](https://github.com/miyamo2/godynamo)
-- [x] Create GSI ※ proprietary PartiQL syntax by [`miyamo2/godynamo`](https://github.com/miyamo2/godynamo)
+- [x] Create Table ※ proprietary PartiQL syntax by [`himgang/godynamo`](https://github.com/himgang/godynamo)
+- [x] Create GSI ※ proprietary PartiQL syntax by [`himgang/godynamo`](https://github.com/himgang/godynamo)
 
 ### Supports the following GORM features
 
@@ -96,24 +96,24 @@ dynmgrm is the driver to issue PartiQL Statement to DynamoDB with GORM⚡
 ### Installation
 
 ```sh
-go get github.com/miyamo2/dynmgrm
+go get github.com/himgang/dynmgrm
 ```
 
 ### Usage
 
 > [!TIP]
 >
-> `miyamo2/dynmgrm` is recommended to be used in with [`miyamo2/sqldav`](https://github.com/miyamo2/sqldav).
+> `himgang/dynmgrm` is recommended to be used in with [`miyamo2/sqldav`](https://github.com/miyamo2/sqldav).
 > 
 > [`miyamo2/sqldav`](https://github.com/miyamo2/sqldav) provides Defined Type of slice/map that implements `sql.Scanner` and `driver.Valuer`.
 > 
-> These are as the equivalent to `Set`, `List`, `Map` and `TypedList` included in `miyamo2/dynmgrm` before `v0.9.0`.
+> These are as the equivalent to `Set`, `List`, `Map` and `TypedList` included in `himgang/dynmgrm` before `v0.9.0`.
 
 ```go
 package main
 
 import (
-	"github.com/miyamo2/dynmgrm"
+	"github.com/himgang/dynmgrm"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm"
 )
@@ -177,13 +177,13 @@ func main() {
 
 Feel free to open a PR or an Issue.
 
-However, you must promise to follow our [Code of Conduct](https://github.com/miyamo2/dynmgrm/blob/main/CODE_OF_CONDUCT.md).
+However, you must promise to follow our [Code of Conduct](https://github.com/himgang/dynmgrm/blob/main/CODE_OF_CONDUCT.md).
 
-See [here](https://github.com/miyamo2/dynmgrm/blob/main/CONTRIBUTING.md) for more details on contributing.
+See [here](https://github.com/himgang/dynmgrm/blob/main/CONTRIBUTING.md) for more details on contributing.
 
 ## License
 
-**dynmgrm** released under the [MIT License](https://github.com/miyamo2/dynmgrm/blob/main/LICENSE)
+**dynmgrm** released under the [MIT License](https://github.com/himgang/dynmgrm/blob/main/LICENSE)
 
 ## Credits
 
@@ -197,7 +197,7 @@ Read this article for more [details](https://go.dev/blog/gopher)
 
 - [btnguyen2k/godynamo](https://github.com/btnguyen2k/godynamo)
 
-  `dynmgrm` connects to `database/sql` by `miyamo2/godynamo` that forked from `btnguyen2k/godynamo`.
+  `dynmgrm` connects to `database/sql` by `himgang/godynamo` that forked from `btnguyen2k/godynamo`.
 
 - [JetBrainsMono](https://github.com/JetBrains/JetBrainsMono)
 

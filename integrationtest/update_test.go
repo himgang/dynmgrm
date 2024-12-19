@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/google/go-cmp/cmp"
-	"github.com/miyamo2/dynmgrm"
+	"github.com/himgang/dynmgrm"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm"
 )

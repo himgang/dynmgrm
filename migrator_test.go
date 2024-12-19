@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/google/go-cmp/cmp"
-	"github.com/miyamo2/dynmgrm/internal/mocks"
+	"github.com/himgang/dynmgrm/internal/mocks"
 	"go.uber.org/mock/gomock"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

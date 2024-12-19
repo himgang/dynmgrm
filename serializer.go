@@ -3,10 +3,11 @@ package dynmgrm
 import (
 	"context"
 	"errors"
+	"reflect"
+
 	"github.com/aws/aws-sdk-go-v2/service/dynamodb/types"
 	"github.com/miyamo2/sqldav"
 	"gorm.io/gorm/schema"
-	"reflect"
 )
 
 // ErrIncompatibleNestedStruct occurs when an incompatible with nested-struct.

@@ -3,12 +3,13 @@ package dynmgrm
 import (
 	"database/sql"
 	"errors"
-	"github.com/miyamo2/dynmgrm/internal/mocks"
-	"github.com/miyamo2/godynamo"
-	"go.uber.org/mock/gomock"
 	"reflect"
 	"strings"
 	"testing"
+
+	"github.com/himgang/dynmgrm/internal/mocks"
+	"github.com/himgang/godynamo"
+	"go.uber.org/mock/gomock"
 
 	"github.com/google/go-cmp/cmp"
 	"gorm.io/gorm"
