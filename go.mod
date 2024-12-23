@@ -5,7 +5,7 @@ go 1.22
 require (
 	github.com/aws/aws-sdk-go-v2/service/dynamodb v1.38.1
 	github.com/google/go-cmp v0.6.0
-	github.com/himgang/godynamo v0.0.4
+	github.com/himgang/godynamo v0.0.5
 	github.com/iancoleman/strcase v0.3.0
 	github.com/miyamo2/sqldav v0.2.1
 	go.uber.org/mock v0.5.0
